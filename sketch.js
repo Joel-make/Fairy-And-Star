@@ -24,13 +24,13 @@ function setup() {
 	fairy = createSprite(130, 520);
 	fairy.addAnimation("fairyflying",fairyImg);  
 	fairy.scale =0.25;
-	fairy.debug=true;
+	fairy.debug=false;
 	fairy.setCollider("rectangle",550,0,100,100)
 
 	star = createSprite(650,30);
 	star.addImage(starImg);
 	star.scale = 0.2;
-	star.debug=true;
+	star.debug=false;
 
 	engine = Engine.create();
 	world = engine.world;
